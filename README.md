@@ -20,14 +20,14 @@ final states (one per line)
 number of transitions  
 transitions (one per line, each line in the form "current-state transition-symbol goal-state output-symbol")
 ```
-For transitions on an empty symbol, an empty word/symbol may simply be denoted `empty` in the `.dfa` file. 
+For transitions on an empty symbol, an empty word/symbol may simply be denoted by `empty` in the `.dfa` file. 
 
 # Info
 The `src` folder contains the DFA implementation.
 
 # Sample DFAs
 ## replace
-- `main dfa/replace.dfa argv` replaces each occurrence of `0 1 1` by `1 0 0` in the binary vector `argv`.  
+- `main dfa/replace.dfa argv` replaces each occurrence of `1 0 0` by `0 1 1` in the binary vector `argv`.  
 **Complexity:** `O(|argv|)`. 
 
 ## add1
