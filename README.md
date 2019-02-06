@@ -55,5 +55,5 @@ The `src` folder contains the DFA implementation.
 **Complexity:** `O(|argv|)`. 
 
 ## add
-- `main dfa/add.dfa ab cd ef ...` computes the sum of the reversed binary numbers  `ace...` and `bdf...` in reversed binary.
+- `main dfa/add.dfa ab cd ef ...` computes the sum of the reversed binary numbers  `ace...` and `bdf...` in reversed binary. 
 **Complexity:** `O(|argv|)`. 
