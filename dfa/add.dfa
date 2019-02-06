@@ -1,0 +1,17 @@
+2
+no_carry
+carry
+no_carry
+1
+no_carry
+10
+no_carry 00 no_carry 0
+no_carry 01 no_carry 1
+no_carry 10 no_carry 1
+no_carry 11 carry 0
+no_carry empty no_carry empty
+carry 00 no_carry 1
+carry 01 carry 0
+carry 10 carry 0
+carry 11 carry 1
+carry empty no_carry 1

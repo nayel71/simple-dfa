@@ -1,0 +1,12 @@
+2
+carry
+no_carry
+carry
+1
+no_carry
+5
+carry 0 carry 1
+carry 1 no_carry 0
+no_carry 0 no_carry 0
+no_carry 1 no_carry 1
+no_carry empty no_carry empty
