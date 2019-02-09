@@ -6,5 +6,3 @@ CXXFLAGS = -std=c++11
 all:	main mult-gen/mult-gen
 
 main:	src/dfa.o
-
-mult-gen/mult-gen:
