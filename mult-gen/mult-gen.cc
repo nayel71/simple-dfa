@@ -1,5 +1,4 @@
 /* mult-gen n for an odd n > 0 will generate the DFA ../dfa/multn.dfa */
-/* to generate the executable, run 'make' in the mult-gen directory */
 
 #include <iostream>
 #include <fstream>
