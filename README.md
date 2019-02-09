@@ -38,12 +38,8 @@ The `src` folder contains the DFA implementation.
 - `main dfa/sub1.dfa n` for a reversed binary vector `n` computes `n-1` in reversed binary.  
 **Complexity:** `O(log n)`. 
 
-## mult3
-- `main dfa/mult3.dfa n` for a reversed binary vector `n` computes `3*n` in reversed binary.  
-**Complexity:** `O(log n)`. 
-
-## mult5
-- `main dfa/mult5.dfa n` for a reversed binary vector `n` computes `5*n` in reversed binary.  
+## multi
+- `main dfa/multi.dfa n` for a reversed binary vector `n` computes `i*n` in reversed binary.  
 **Complexity:** `O(log n)`. 
 
 ## collatz
