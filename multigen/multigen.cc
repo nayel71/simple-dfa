@@ -1,4 +1,4 @@
-/* mult-gen n for an odd n > 0 will generate the DFA ../dfa/multn.dfa */
+/* multigen i for an odd i > 0 will generate the DFA ../dfa/multi.dfa */
 
 #include <iostream>
 #include <fstream>
