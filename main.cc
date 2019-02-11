@@ -10,11 +10,7 @@ int main(int argc, char *argv[]) {
 	DFA dfa(ifile);
 
 	// create input symbols to feed to DFA
-	std::vector<std::string> input_symbols;
-	for (int i = 2; i < argc; i++) {
-		std::string symbol = argv[i];
-		input_symbols.push_back(symbol);
-	}
+	std::vector<std::string> input_symbols(argv+2, argv+argc);
 	input_symbols.push_back(eof);
 
 	// feed input symbols to the DFA
