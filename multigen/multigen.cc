@@ -3,6 +3,7 @@
 #include <iostream>
 #include <fstream>
 #include <bitset>
+#include <algorithm>
 
 static void print_transition(int i, int n, std::ofstream &file) {
 	file << i << ' ' << '0'     << ' ' << i/2               << ' ' << i%2     << std::endl;
